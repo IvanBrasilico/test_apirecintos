@@ -1,0 +1,103 @@
+{
+  "idEvento": "string",
+  "dtHrOcorrencia": "2019-08-07T13:36:51.809Z",
+  "dtHrRegistro": "2019-08-07T13:36:51.809Z",
+  "cpfOperOcor": "02297768923",
+  "cpfOperReg": "02297768923",
+  "tipoOperacao": "I",
+  "protocoloEventoRetifCanc": "string",
+  "contingencia": false,
+  "operacao": "C",
+  "direcao": "E",
+  "protocoloAgenda": "string",
+  "dtHrAgenda": "2019-08-07T13:36:51.809Z",
+  "listaManifestos": [
+    {
+      "num": "1234",
+      "tipo": "DAT",
+      "listaConhecimentos": [
+        {
+          "num": "string",
+          "tipo": "AWB"
+        }
+      ]
+    }
+  ],
+  "listaDiDue": [
+    {
+      "num": "1",
+      "tipo": "DUIMP"
+    }
+  ],
+  "listaNfe": [
+    0,
+    0,
+    0
+  ],
+  "listaMalas": [
+    "string",
+    "string"
+  ],
+  "tipoGranel": "S",
+  "listaChassi": [
+    "string",
+    "string"
+  ],
+  "placa": "string",
+  "ocrPlaca": true,
+  "oogDimensao": false,
+  "oogPeso": false,
+  "listaSemirreboque": [
+    {
+      "placa": "string",
+      "ocrPlaca": true,
+      "vazio": false,
+      "listaLacres": [
+        {
+          "num": 0,
+          "tipo": "RFB",
+          "localSif": "string"
+        }
+      ],
+      "avaria": false,
+      "cnpjCliente": "33683111000794",
+      "nmCliente": "string"
+    }
+  ],
+  "listaConteineresUld": [
+    {
+      "num": "string",
+      "tipo": "string",
+      "ocrNum": false,
+      "vazio": false,
+      "numBooking": "string",
+      "listaLacres": [
+        {
+          "num": 0,
+          "tipo": "RFB",
+          "localSif": "string"
+        }
+      ],
+      "avaria": false,
+      "portoDescarga": "string",
+      "destinoCarga": "string",
+      "imoNavio": "string",
+      "cnpjCliente": "33683111000794",
+      "nmCliente": "string"
+    }
+  ],
+  "cnpjTransportador": "33683111000794",
+  "nmTransportador": "string",
+  "motorista": {
+    "protocoloCredenciamento": "string",
+    "cpf": "02297768923",
+    "nome": "string"
+  },
+  "codRecintoDestino": 0,
+  "modal": "R",
+  "gate": "protocolo georref 05.21",
+  "listaCameras": [
+    "protocolo georref 05.21",
+    "protocolo georref 05.21"
+  ]
+}

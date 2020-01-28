@@ -1,0 +1,73 @@
+{
+  "idEvento": "string",
+  "dtHrOcorrencia": "2019-08-07T13:36:51.809Z",
+  "dtHrRegistro": "2019-08-07T13:36:51.809Z",
+  "cpfOperOcor": "02297768923",
+  "cpfOperReg": "02297768923",
+  "tipoOperacao": "I",
+  "protocoloEventoRetifCanc": "string",
+  "contingencia": false,
+  "numManifesto": "string",
+  "tipoManifesto": "DAT",
+  "numConhecimento": "string",
+  "tipoConhecimento": "DSIC",
+  "pesoManifesto": 0,
+  "listaVolumesManifesto": [
+    {
+      "qtde": 0,
+      "tipo": "string"
+    }
+  ],
+  "numConteinerUld": "string",
+  "listaChassi": [
+    "string",
+    "string"
+  ],
+  "imoNavio": "string",
+  "iataAeronave": "string",
+  "prefixoAeronave": "string",
+  "viagem": "string",
+  "voo": "string",
+  "escala": "string",
+  "dtHrPartida": "2019-08-07T13:36:51.809Z",
+  "aeroportoPartida": "string",
+  "aeroportoOrigem": "string",
+  "placaSemirreboque": "string",
+  "listaMercadoriaPerigosa": [
+    {
+      "classe": 0,
+      "cod": 0
+    }
+  ],
+  "perecivel": false,
+  "cargaSolta": false,
+  "listaCameras": [
+    "protocolo georref 05.21",
+    "protocolo georref 05.21"
+  ],
+  "obsRecepcao": "string",
+  "lotes": [
+    {
+      "numLote": "String",
+      "pesoLoteBalanca": 0,
+      "listaVolumesVerificados": [
+        {
+          "qtde": 0,
+          "tipo": "string",
+          "madeira": true
+        }
+      ],
+      "marca": "string",
+      "contraMarca": "string",
+      "embalagemComercial": "string",
+      "divergenciaQuantidade": false,
+      "divergenciaQualificacao": false,
+      "qtdeVolumesDivergentes": 0,
+      "obsDivergencia": "string",
+      "avaria": false,
+      "tipoAvaria": "1",
+      "qtdeVolumesAvariados": 0,
+      "obsAvaria": "string"
+    }
+  ]
+}

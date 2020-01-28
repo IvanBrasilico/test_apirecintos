@@ -1,0 +1,58 @@
+{
+  "idEvento": "string",
+  "dtHrOcorrencia": "2019-08-07T13:36:51.809Z",
+  "dtHrRegistro": "2019-08-07T13:36:51.809Z",
+  "cpfOperOcor": "02297768923",
+  "cpfOperReg": "02297768923",
+  "tipoOperacao": "I",
+  "protocoloEventoRetifCanc": "string",
+  "contingencia": false,
+  "listaManifestos": [
+    {
+      "num": "string",
+      "tipo": "DAT",
+      "listaConhecimentos": [
+        {
+          "num": "string",
+          "tipo": "CRT"
+        }
+      ]
+    }
+  ],
+  "listaDiDue": [
+    {
+      "num": "string",
+      "tipo": "DUE"
+    }
+  ],
+  "listaNfe": [
+    0,
+    0,
+    0
+  ],
+  "direcao": "E",
+  "numConteiner": "string",
+  "taraConteiner": 0,
+  "tipoGranel": "S",
+  "numLote": "string",
+  "pesoBrutoManifesto": 0,
+  "pesoBrutoBalanca": 0,
+  "imoNavio": "string",
+  "viagem": "string",
+  "escala": "string",
+  "listaPortoOrigemDestino": [
+    "string",
+    "string"
+  ],
+  "listaDestinoCarga": [
+    "string",
+    "string"
+  ],
+  "posicaoNavio": "string",
+  "proximoNavio": "T",
+  "portainer": "protocolo georref 05.21",
+  "listaCameras": [
+    "protocolo georref 05.21",
+    "protocolo georref 05.21"
+  ]
+}

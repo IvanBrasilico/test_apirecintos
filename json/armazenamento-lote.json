@@ -1,0 +1,23 @@
+{
+  "idEvento": "string",
+  "dtHrOcorrencia": "2019-08-07T13:36:51.809Z",
+  "dtHrRegistro": "2019-08-07T13:36:51.809Z",
+  "cpfOperOcor": "02297768923",
+  "cpfOperReg": "02297768923",
+  "tipoOperacao": "I",
+  "protocoloEventoRetifCanc": "string",
+  "contingencia": false,
+  "numLote": "String",
+  "qtdeVolumesLote": 0,
+  "localizacao": {
+    "quadra": "string",
+    "pilha": "string",
+    "altura": "string",
+    "nivel": "string"
+  },
+  "areaArmazenamento": "protocolo georref 05.21",
+  "listaCameras": [
+    "protocolo georref 05.21",
+    "protocolo georref 05.21"
+  ]
+}

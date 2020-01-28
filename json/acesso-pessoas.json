@@ -1,0 +1,22 @@
+{
+  "idEvento": "string",
+  "dtHrOcorrencia": "2019-08-07T13:36:51.809Z",
+  "dtHrRegistro": "2019-08-07T13:36:51.809Z",
+  "cpfOperOcor": "02297768923",
+  "cpfOperReg": "02297768923",
+  "tipoOperacao": "I",
+  "protocoloEventoRetifCanc": "string",
+  "contingencia": false,
+  "cpf": "02196128970",
+  "direcao": "E",
+  "identificacao": "2",
+  "identidadeEstrangeiro": "string",
+  "nome": "string",
+  "reserva": "string",
+  "voo": "string",
+  "catraca": "protocolo georref 05.21",
+  "listaCameras": [
+    "protocolo georref 05.21",
+    "protocolo georref 05.21"
+  ]
+}
