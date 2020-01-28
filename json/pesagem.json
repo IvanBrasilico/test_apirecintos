@@ -1,0 +1,44 @@
+{
+  "idEvento": "string",
+  "dtHrOcorrencia": "2019-08-07T13:36:51.809Z",
+  "dtHrRegistro": "2019-08-07T13:36:51.809Z",
+  "cpfOperOcor": "02297768923",
+  "cpfOperReg": "02297768923",
+  "tipoOperacao": "I",
+  "protocoloEventoRetifCanc": "string",
+  "contingencia": false,
+  "listaManifestos": [
+    {
+      "num": "string",
+      "tipo": "DAT",
+      "listaConhecimentos": [
+        {
+          "num": "string",
+          "tipo": "CRT"
+        }
+      ]
+    }
+  ],
+  "pesoBrutoManifesto": 0,
+  "placa": "string",
+  "tara": 0,
+  "listaSemirreboque": [
+    {
+      "placa": "string",
+      "tara": 0
+    }
+  ],
+  "taraConjunto": 0,
+  "numConteinerUld": "string",
+  "tipoConteinerUld": "string",
+  "taraConteinerUld": 0,
+  "pesoBrutoBalanca": 0,
+  "capturaAutoPeso": true,
+  "dutos": "E",
+  "volume": 0,
+  "balanca": "protocolo georref 05.21",
+  "listaCameras": [
+    "protocolo georref 05.21",
+    "protocolo georref 05.21"
+  ]
+}
