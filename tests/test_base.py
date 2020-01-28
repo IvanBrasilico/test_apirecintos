@@ -48,24 +48,6 @@ class BaseTestCase(unittest.TestCase):
                  verify=False)
         return r
 
-    def test_autenticar_corretamente(self):
-        response = self.autenticar()
-        assert response.status_code == 400
-        tokens = self.get_tokens(response)
-        print(tokens)
-        assert tokens.get('xcsrftoken') is not None
-        assert tokens.get('authorization') is not None
-
-    def test_post(self):
-        tokens = self.get_tokens(self.autenticar())
-        myjson = {}
-        r = self._post(
-            'https://tes-pucomex-rcnt-priv.estaleiro.serpro/recintos-ext/api/ext/pesagem-veiculos-cargas',
-            tokens,
-            '92772821010712',
-            myjson)
-        assert r.status_code == 201
-
 
 if __name__ == '__main__':
     unittest.main()
